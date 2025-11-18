@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Grid</title>
+
+    <style>
+        .container{
+            width: 600px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .box{
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .b4{ background-color: #f1c40f; } /* yellow */
+        .b1{ background-color: #1abc9c; } /* aqua */
+        .b9{ background-color: #8e2c2c; } /* maroon */
+        .b3{ background-color: #2980b9; } /* blue */
+        .b6{ background-color: #27ae60; } /* green */
+        .b8{ background-color: #48c9b0; } /* teal */
+        .b2{ background-color: #e74c3c; } /* red */
+        .b5{ background-color: #8e44ad; } /* purple */
+        .b7{ background-color: #e59866; } /* peach */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box b4">4</div>
+        <div class="box b1">1</div>
+        <div class="box b9">9</div>
+        <div class="box b3">3</div>
+        <div class="box b6">6</div>
+        <div class="box b8">8</div>
+        <div class="box b2">2</div>
+        <div class="box b5">5</div>
+        <div class="box b7">7</div>
+    </div>
+</body>
+</html>
